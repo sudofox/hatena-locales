@@ -775,7 +775,7 @@
     "value": "通常の記事から、サイドバーを無くしたレイアウトです。"
   },
   "publication_type.page": {
-    "value": "固定ページ"
+    "value": "Static pages"
   },
   "subscribed_list.no_subscribe.description": {
     "value": "読者機能を使って、読みたいブログの更新を簡単にチェックできます。気になるブログを見つけたら読者になってみましょう！"

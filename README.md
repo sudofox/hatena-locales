@@ -14,4 +14,11 @@ Most of this repo works with some clever `jq` commands I've written. The transla
 
 - `./scripts/pull_original.sh` will pull the active Hatena Blog locale files, and then parse them to extract the JSON data.
 - `./scripts/find_untranslated.sh` will compare the English and Japanese locale files, merge in any object with the same top-level key in patch/en.json, and then find any keys that are present in the English file but not the Japanese file.
+- `./scripts/build_en_locale.sh` -- builds the English locale file with patches applied
+- `./scripts/build_userscript.sh` -- builds the userscript that will apply the patches to Hatena Blog
 
+To update, run:
+
+```sh
+./scripts/pull_original.sh ; ./scripts/build_en_locale.sh ; ./scripts/build_userscript.sh
+```

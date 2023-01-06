@@ -19,7 +19,6 @@ window.addEventListener("beforescriptexecute", function (event) {
 });
 
 function injectLocales() {
-  window.__hatena_locale_texts__ = {};
-  window.__hatena_locale_texts__["en"] = newLocales;
+  window.__hatena_locale_texts__ = { en: newLocales };
 }
 newLocales = 

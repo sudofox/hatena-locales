@@ -19,8 +19,7 @@ window.addEventListener("beforescriptexecute", function (event) {
 });
 
 function injectLocales() {
-  window.__hatena_locale_texts__ = {};
-  window.__hatena_locale_texts__["en"] = newLocales;
+  window.__hatena_locale_texts__ = { en: newLocales };
 }
 newLocales = {
   "a.hatena.ne.jp": {
@@ -72,7 +71,7 @@ newLocales = {
     "value": "You can set default og:image of entries."
   },
   "admin.blog.config.entry_ogimage.description2": {
-    "value": "You can set an eye-catching image (also known as a thumbnail or featured image) that can be used for featured entries or social media sharing. On article pages, the eye-catching image specified for each article will be prioritized and displayed."
+    "value": "You can set an preview image (also known as a thumbnail or featured image) that can be used for featured entries or social media sharing.\nOn article pages, the preview image specified for each article will be prioritized and displayed."
   },
   "admin.blog.config.id": {
     "value": "Blog URL"
@@ -258,19 +257,19 @@ newLocales = {
     "value": "Tips for adding tags"
   },
   "admin.edit.tag.hints.guideline": {
-    "value": "Make sure to follow the rules"
+    "value": ", and make sure to follow the rules"
   },
   "admin.edit.tag.hints.guideline.with_link": {
-    "value": "ガイドラインを読んで、"
+    "value": "Read the guidlines"
   },
   "admin.edit.tag.hints.number_of_tags": {
     "value": "We recommend adding between 3 and 5 tags."
   },
   "admin.edit.tag.hints.tag_content": {
-    "value": "記事内容に沿った、理解しやすいタグを選ぼう"
+    "value": "Choose tags that are easy to understand and related to the article content."
   },
   "admin.edit.tag.input.placeholder": {
-    "value": "タグを入力..."
+    "value": "Enter tags..."
   },
   "admin.edit_delete": {
     "value": "Change profile"
@@ -279,13 +278,13 @@ newLocales = {
     "value": "Manage Entries"
   },
   "admin.entries.categories.selector": {
-    "value": "カテゴリー指定なし"
+    "value": "No category specified"
   },
   "admin.entries.top_placed_publication.activated": {
-    "value": "記事をトップページの先頭に表示しました。"
+    "value": "The article will now be displayed at the top of the homepage."
   },
   "admin.entries.top_placed_publication.activated_overwritten": {
-    "value": "トップページの先頭に表示する記事を変更しました。"
+    "value": "Changed the article displayed at the top of the homepage."
   },
   "admin.entries.top_placed_publication.comm_failed": {
     "value": "先頭表示設定中に通信に失敗しました、再度設定をしてください"
@@ -2234,7 +2233,7 @@ newLocales = {
     "value": "通常の記事から、サイドバーを無くしたレイアウトです。"
   },
   "publication_type.page": {
-    "value": "固定ページ"
+    "value": "Static pages"
   },
   "q.hatena.ne.jp": {
     "value": "Hatena Question"

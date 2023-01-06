@@ -1,0 +1,2273 @@
+{
+  "a.hatena.ne.jp": {
+    "value": "はてなアンテナ"
+  },
+  "admin.accesslog": {
+    "value": "アクセス解析"
+  },
+  "admin.blog.config.comment.add_refused_ips.note": {
+    "value": "ゲストのコメントを拒否したい場合はIPアドレスを入力してください。IPアドレスはコメント管理画面で確認できます。"
+  },
+  "admin.blog.config.comment.add_refused_ips.note.comment_permission": {
+    "value": "ゲストのコメントをすべて拒否するには、コメント設定でコメント許可を「ユーザー」にしてください。"
+  },
+  "admin.blog.config.comment.refused_ip.added": {
+    "value": "コメント拒否IPアドレスを追加しました。"
+  },
+  "admin.blog.config.comment.refused_ip.not_found": {
+    "value": "コメント拒否IPを追加しました。"
+  },
+  "admin.blog.config.comment.refused_ip.removed": {
+    "value": "コメント拒否IPアドレスを削除しました。"
+  },
+  "admin.blog.config.confirm.delete_pro_notice_with_url": {
+    "args": [
+      1
+    ],
+    "text_args": [],
+    "value": "はてなブログProは、全てのブログを削除しても解約されません。解約する場合は、必ず解約画面から手続きをお願いします。"
+  },
+  "admin.blog.config.confirm.delete_pro_notice_with_url %1": {
+    "args": [
+      1
+    ],
+    "text_args": [],
+    "value": "はてなブログProは、全てのブログを削除しても解約されません。解約する場合は、必ず解約画面から手続きをお願いします。"
+  },
+  "admin.blog.config.confirm.delete_pro_notice_with_url [_1]": {
+    "args": [
+      1
+    ],
+    "text_args": [],
+    "value": "はてなブログProは、全てのブログを削除しても解約されません。解約する場合は、必ず解約画面から手続きをお願いします。"
+  },
+  "admin.blog.config.description": {
+    "value": "ブログのひとこと説明"
+  },
+  "admin.blog.config.entry_ogimage.description": {
+    "value": "注目エントリーやSNSシェアなどで利用される、デフォルトのアイキャッチ画像を指定できます。\n詳細はヘルプ「アイキャッチ画像」を参照してください。"
+  },
+  "admin.blog.config.entry_ogimage.description2": {
+    "value": "注目エントリーやSNSシェアなどで利用されるアイキャッチ画像を設定できます。\n記事ページでは記事ごとに指定したアイキャッチ画像が優先して表示されます。"
+  },
+  "admin.blog.config.id": {
+    "value": "ブログURL"
+  },
+  "admin.blog.config.image_upload_failure": {
+    "value": "画像のアップロードに失敗しました。お手数ですが再度アップロードしてください"
+  },
+  "admin.blog.config.name": {
+    "value": "ブログ名"
+  },
+  "admin.blog.config.refused_ips": {
+    "value": "コメント拒否IPアドレス"
+  },
+  "admin.blog.config.refused_ips.empty": {
+    "value": "IP拒否ユーザーはいません。"
+  },
+  "admin.blog.config.refused_users": {
+    "value": "コメント拒否ユーザー"
+  },
+  "admin.blog.config.refused_users.empty": {
+    "value": "コメント拒否ユーザーはいません。"
+  },
+  "admin.blog.edit.schedule_post_facebook_discontinued": {
+    "value": "【重要なお知らせ】2018年7月29日（日）をもって、Facebookへの予約投稿機能の提供を終了します。"
+  },
+  "admin.blog.edit.schedule_post_facebook_discontinued.show_detail": {
+    "value": "詳しくはこちら"
+  },
+  "admin.blog.edit.schedule_post_twitter_api_policy": {
+    "value": "【重要】2018年10月4日（木）以降、公開と同時にTwitterに投稿する場合、Twitterアカウントの再連携が必要です。"
+  },
+  "admin.blog.edit.schedule_post_twitter_expired": {
+    "value": "【重要なお知らせ】2018年10月4日（木）以降、Twitterアカウントの再連携が必要になりました。"
+  },
+  "admin.blog.members.owner": {
+    "value": "オーナー"
+  },
+  "admin.blog.plus.notice": {
+    "value": "はてなブログProを利用中の方へ"
+  },
+  "admin.blog.welcome_message": {
+    "value": "はてなブログへようこそ！"
+  },
+  "admin.blog_subscribers_count": {
+    "value": "読者数"
+  },
+  "admin.breadcrumbs.breadcrumbs_add": {
+    "value": "パンくずリストを追加する"
+  },
+  "admin.breadcrumbs.breadcrumbs_category_discription": {
+    "value": "カテゴリーを未記入で登録すると、特定のカテゴリーでパンくず登録していない全記事ページが対象で表示されます。既に登録済みのカテゴリーにパンくずの表示を合わせる場合は、既存のカテゴリー名を「完全一致」で登録してください。"
+  },
+  "admin.breadcrumbs.breadcrumbs_edit": {
+    "value": "パンくず編集"
+  },
+  "admin.breadcrumbs.breadcrumbs_item": {
+    "value": "パンくず項目"
+  },
+  "admin.breadcrumbs.breadcrumbs_preview": {
+    "value": "パンくずプレビュー"
+  },
+  "admin.breadcrumbs.breadcrumbs_rule": {
+    "value": "パンくずルール"
+  },
+  "admin.breadcrumbs.breadcrumbs_rule_delete_confirm": {
+    "value": "このルールを削除してよろしいですか"
+  },
+  "admin.breadcrumbs.breadcrumbs_rule_page_type_tip": {
+    "value": "「パンくず適用範囲」「パンくず適用カテゴリー」は一度保存すると変更できません、既にある設定を削除してから作り直してください。"
+  },
+  "admin.breadcrumbs.breadcrumbs_rule_tip": {
+    "value": "パンくずルールは記入するごとに記入枠が増えます。"
+  },
+  "admin.breadcrumbs.categories": {
+    "value": "パンくず適用カテゴリー"
+  },
+  "admin.breadcrumbs.delete": {
+    "value": "削除"
+  },
+  "admin.breadcrumbs.edit": {
+    "value": "編集"
+  },
+  "admin.breadcrumbs.labels": {
+    "value": "ラベル"
+  },
+  "admin.breadcrumbs.page_type": {
+    "value": "パンくず適用範囲"
+  },
+  "admin.breadcrumbs.page_type.all": {
+    "value": "その他すべて"
+  },
+  "admin.breadcrumbs.page_type.archive": {
+    "value": "記事一覧"
+  },
+  "admin.breadcrumbs.page_type.category": {
+    "value": "カテゴリごとの記事一覧"
+  },
+  "admin.breadcrumbs.page_type.entry": {
+    "value": "記事"
+  },
+  "admin.breadcrumbs.page_type.index": {
+    "value": "トップページ"
+  },
+  "admin.breadcrumbs.page_type.top_page": {
+    "value": "トップページ"
+  },
+  "admin.categories": {
+    "value": "カテゴリー"
+  },
+  "admin.comments.delete.confirm": {
+    "value": "チェックしたコメントを削除します。よろしいですか？"
+  },
+  "admin.config_delete.confirm_agreement": {
+    "value": "削除するブログに間違いがないことを確認しました。また、一度ブログを削除すると復旧できないことに同意します。"
+  },
+  "admin.config_delete.confirm_blog": {
+    "value": "削除ブログの確認"
+  },
+  "admin.config_delete.confirm_blog_url": {
+    "value": "「ブログURL」と同じ内容を入力してください。"
+  },
+  "admin.config_delete.confirm_notice": {
+    "value": "誤削除を避けるため、上に掲載している「ブログURL」をクリックし、削除予定のブログであることを確認してください。また、間違いがなければ下のチェックボックスにチェックを入れてください。"
+  },
+  "admin.config_delete.confirm_required": {
+    "value": "*必須"
+  },
+  "admin.config_delete.why": {
+    "value": "削除する理由をもしよろしければ教えてください。 ※任意です"
+  },
+  "admin.config_delete.why.textarea": {
+    "value": "削除理由"
+  },
+  "admin.design.module_setting_badvalue": {
+    "value": "正しい値を入力してください"
+  },
+  "admin.design.preview_entry_page": {
+    "value": "記事ページをプレビュー"
+  },
+  "admin.design.quit_preview_entry_page": {
+    "value": "記事ページのプレビューをやめる"
+  },
+  "admin.design.stop_header_image_confirm": {
+    "value": "画像を外します。よろしいですか？"
+  },
+  "admin.downgraded_role": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "自分の権限を%sから%sに変更しました"
+  },
+  "admin.downgraded_role %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "自分の権限を%sから%sに変更しました"
+  },
+  "admin.downgraded_role [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "自分の権限を%sから%sに変更しました"
+  },
+  "admin.edit.tag.add_tag": {
+    "value": "タグをつける"
+  },
+  "admin.edit.tag.desc": {
+    "value": "記事にタグをつけると、同じ興味の人に読まれやすくなります。"
+  },
+  "admin.edit.tag.edit_done": {
+    "value": "完了する"
+  },
+  "admin.edit.tag.edit_tag.description": {
+    "value": "記事にタグをつけると、同じ興味の人に読まれやすくなります。タグを入力し、Enterで確定してください。"
+  },
+  "admin.edit.tag.edit_tag.heading": {
+    "value": "タグを追加・編集する"
+  },
+  "admin.edit.tag.hints": {
+    "value": "タグをつけるコツ"
+  },
+  "admin.edit.tag.hints.guideline": {
+    "value": "ルールを守りましょう"
+  },
+  "admin.edit.tag.hints.guideline.with_link": {
+    "value": "ガイドラインを読んで、"
+  },
+  "admin.edit.tag.hints.number_of_tags": {
+    "value": "タグ数は3〜5つに絞るのがおすすめ"
+  },
+  "admin.edit.tag.hints.tag_content": {
+    "value": "記事内容に沿った、理解しやすいタグを選ぼう"
+  },
+  "admin.edit.tag.input.placeholder": {
+    "value": "タグを入力..."
+  },
+  "admin.edit_delete": {
+    "value": "変更・削除する"
+  },
+  "admin.entries": {
+    "value": "記事の管理"
+  },
+  "admin.entries.categories.selector": {
+    "value": "カテゴリー指定なし"
+  },
+  "admin.entries.top_placed_publication.activated": {
+    "value": "記事をトップページの先頭に表示しました。"
+  },
+  "admin.entries.top_placed_publication.activated_overwritten": {
+    "value": "トップページの先頭に表示する記事を変更しました。"
+  },
+  "admin.entries.top_placed_publication.comm_failed": {
+    "value": "先頭表示設定中に通信に失敗しました、再度設定をしてください"
+  },
+  "admin.entries.top_placed_publication.confirm": {
+    "value": "選択した記事をトップページの先頭に表示します。よろしいですか？"
+  },
+  "admin.entries.top_placed_publication.confirm_activation": {
+    "value": "選択した記事をトップページの先頭に表示します。よろしいですか？"
+  },
+  "admin.entries.top_placed_publication.confirm_deactivation": {
+    "value": "トップページの先頭に表示している記事を解除します。よろしいですか？"
+  },
+  "admin.entries.top_placed_publication.deactivated": {
+    "value": "トップページの先頭に表示している記事を解除しました。"
+  },
+  "admin.entries.top_placed_publication.not_found": {
+    "value": "先頭表示する記事がありませんでした、URLを確認してください"
+  },
+  "admin.entry.edit_scheduled_update": {
+    "value": "差し替え予約を編集"
+  },
+  "admin.image-upload-notice": {
+    "value": "フォトライフにアップロードされます。"
+  },
+  "admin.import.undo.confirm": {
+    "value": "インポートを取り消します。取り消しを行うと、インポートした記事がすべて削除されます。本当によろしいですか？"
+  },
+  "admin.leave_plus": {
+    "value": "はてなブログProを解約"
+  },
+  "admin.manage_blog": {
+    "value": "ブログを管理"
+  },
+  "admin.my_blogs": {
+    "value": "マイブログ"
+  },
+  "admin.myblog.no_blog": {
+    "value": "まだブログがありません。さっそく作成してみましょう！"
+  },
+  "admin.myblog.subcontent.detail": {
+    "value": "詳細"
+  },
+  "admin.myblogs.draghandle.hide": {
+    "value": "ブログの並べ替えバーを閉じる"
+  },
+  "admin.myblogs.draghandle.show": {
+    "value": "ブログの並べ替えバーを開く"
+  },
+  "admin.myblogs.sort": {
+    "value": "並べ替え"
+  },
+  "admin.myblogs.sort.done": {
+    "value": "並べ替えを完了"
+  },
+  "admin.odai.delete_odai.confirm": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "お題「%s」(%s) を削除しますか？"
+  },
+  "admin.odai.delete_odai.confirm %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "お題「%s」(%s) を削除しますか？"
+  },
+  "admin.odai.delete_odai.confirm [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "お題「%s」(%s) を削除しますか？"
+  },
+  "admin.odai.fillin": {
+    "args": [
+      1
+    ],
+    "value": "お題「%s」"
+  },
+  "admin.odai.fillin %1": {
+    "args": [
+      1
+    ],
+    "value": "お題「%s」"
+  },
+  "admin.odai.fillin [_1]": {
+    "args": [
+      1
+    ],
+    "value": "お題「%s」"
+  },
+  "admin.odai.insert": {
+    "value": "お題の記事を書く"
+  },
+  "admin.odai.leave_slot": {
+    "value": "今週のお題に戻る"
+  },
+  "admin.odai.odai_slot": {
+    "value": "お題スロット"
+  },
+  "admin.odai.open_slot": {
+    "value": "お題スロットを開く"
+  },
+  "admin.odai.slot_description": {
+    "value": "[\"↻ボタンを押すと、ランダムにお題のキーワードを表示します。\",\n\"書きたい話題を見つけたら「このお題で書く」ボタンをクリック。\"]"
+  },
+  "admin.odai.slot_description_1": {
+    "value": "<i class=\"blogicon-repeat\"></i>をクリックするたびに、お題のキーワードが変わります。"
+  },
+  "admin.odai.slot_description_2": {
+    "value": "書きたい話題が見つかったら「お題の記事を書く」をクリック。"
+  },
+  "admin.odai.slot_description_foot": {
+    "value": "※記事中のお題キーワードをクリックすると、他の投稿を一覧できます。\n"
+  },
+  "admin.odai.slot_description_head": {
+    "value": "スロットを回してブログを書こう！<br>\n新しい話題を探してみませんか？"
+  },
+  "admin.odai.turn": {
+    "value": "スロットを回す"
+  },
+  "admin.paint": {
+    "value": "絵を描く"
+  },
+  "admin.paint.bucket": {
+    "value": "塗りつぶし"
+  },
+  "admin.paint.canvas-large": {
+    "value": "キャンバスサイズ大"
+  },
+  "admin.paint.canvas-middle": {
+    "value": "キャンバスサイズ中"
+  },
+  "admin.paint.canvas-small": {
+    "value": "キャンバスサイズ小"
+  },
+  "admin.paint.clear": {
+    "value": "クリア"
+  },
+  "admin.paint.dropper": {
+    "value": "スポイト"
+  },
+  "admin.paint.eraser": {
+    "value": "消しゴム"
+  },
+  "admin.paint.pencil": {
+    "value": "ペン"
+  },
+  "admin.paint.redo": {
+    "value": "やり直す"
+  },
+  "admin.paint.resize_canvas.confirm": {
+    "value": "キャンバスのサイズに合わせて絵が切り取られます。キャンバスを小さくしますか？\n（消える部分は元に戻せません）"
+  },
+  "admin.paint.stroke_width": {
+    "value": "線の幅"
+  },
+  "admin.paint.undo": {
+    "value": "元に戻す"
+  },
+  "admin.paint.water": {
+    "value": "透明ペン"
+  },
+  "admin.paint_dev": {
+    "value": "絵を描く（スタッフ限定公開）"
+  },
+  "admin.permission.public": {
+    "value": "すべての人に公開"
+  },
+  "admin.plus.disabled.js_string": {
+    "value": "はてなブログProに登録するとご利用いただけます。"
+  },
+  "admin.plus.disabled.more_revisions": {
+    "value": "はてなブログProに登録すると、より多くの履歴を保存できます。"
+  },
+  "admin.plus.plus_detail.js_string": {
+    "value": "詳しくはこちら"
+  },
+  "admin.post_count": {
+    "value": "投稿数"
+  },
+  "admin.profile_card.search": {
+    "value": "プロフィールカードを検索"
+  },
+  "admin.profile_card.search.button": {
+    "value": "検索"
+  },
+  "admin.profile_cards.author": {
+    "value": "著者名: "
+  },
+  "admin.profile_edit": {
+    "value": "変更する"
+  },
+  "admin.revision_diff_detail": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の編集内容"
+  },
+  "admin.revision_diff_detail %1": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の編集内容"
+  },
+  "admin.revision_diff_detail [_1]": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の編集内容"
+  },
+  "admin.revisions.back_to_entries": {
+    "value": "記事の管理に戻る"
+  },
+  "admin.revisions.back_to_pages": {
+    "value": "ページの管理に戻る"
+  },
+  "admin.revisions.diff.changes_stat": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "%s 行追加、%s 行削除"
+  },
+  "admin.revisions.diff.changes_stat %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "%s 行追加、%s 行削除"
+  },
+  "admin.revisions.diff.changes_stat [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "%s 行追加、%s 行削除"
+  },
+  "admin.revisions.edit_from_this": {
+    "value": "この履歴から編集"
+  },
+  "admin.revisions.latest_revision": {
+    "value": "最新バージョン"
+  },
+  "admin.revisions.no_changes_in_body": {
+    "value": "本文の変更はありません"
+  },
+  "admin.revisions.no_revisions_for": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の履歴はありません"
+  },
+  "admin.revisions.no_revisions_for %1": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の履歴はありません"
+  },
+  "admin.revisions.no_revisions_for [_1]": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の履歴はありません"
+  },
+  "admin.revisions.revisions": {
+    "value": "履歴"
+  },
+  "admin.revisions.time": {
+    "value": "保存時刻"
+  },
+  "admin.revisions_for": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の編集履歴"
+  },
+  "admin.revisions_for %1": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の編集履歴"
+  },
+  "admin.revisions_for [_1]": {
+    "args": [
+      1
+    ],
+    "value": "「%s」の編集履歴"
+  },
+  "admin.subscribe.private.blog.message": {
+    "value": "公開範囲がカスタマイズされています。記事の詳細は、公開範囲が｢すべての人に表示｣の場合に表示されます。"
+  },
+  "admin.subscribe.private.message": {
+    "value": "このブログは限定公開です。"
+  },
+  "admin.subscribe.private.message.1": {
+    "value": "公開範囲がカスタムされています。"
+  },
+  "admin.subscribe.private.message.2": {
+    "value": "記事の詳細は、公開範囲が｢すべての人に表示｣の場合に表示されます。"
+  },
+  "admin.subscribing_blog": {
+    "value": "購読中のブログ"
+  },
+  "admin.subscription_list": {
+    "value": "購読リスト"
+  },
+  "admin.success_withdrawal_from_blog": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "ブログ「%s」の%sをやめました"
+  },
+  "admin.success_withdrawal_from_blog %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "ブログ「%s」の%sをやめました"
+  },
+  "admin.success_withdrawal_from_blog [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "ブログ「%s」の%sをやめました"
+  },
+  "admin.upload_header_image": {
+    "value": "画像をアップロード"
+  },
+  "admin.upload_image": {
+    "value": "写真を投稿"
+  },
+  "admin.user.blog.members.withdraw_from_this_blog": {
+    "args": [
+      1
+    ],
+    "value": "このブログの%sをやめる"
+  },
+  "admin.user.blog.members.withdraw_from_this_blog %1": {
+    "args": [
+      1
+    ],
+    "value": "このブログの%sをやめる"
+  },
+  "admin.user.blog.members.withdraw_from_this_blog [_1]": {
+    "args": [
+      1
+    ],
+    "value": "このブログの%sをやめる"
+  },
+  "admin.user.blog.members.withdraw_from_this_blog.confirm": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "ブログ「%s」の%sをやめます。やめてよいですか？"
+  },
+  "admin.user.blog.members.withdraw_from_this_blog.confirm %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "ブログ「%s」の%sをやめます。やめてよいですか？"
+  },
+  "admin.user.blog.members.withdraw_from_this_blog.confirm [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "ブログ「%s」の%sをやめます。やめてよいですか？"
+  },
+  "admin.user.blog.revisions.action.preview_draft": {
+    "value": "下書きプレビュー"
+  },
+  "admin.user.blog.revisions.action.publish": {
+    "value": "投稿"
+  },
+  "admin.user.blog.revisions.action.publish_scheduled_entry": {
+    "value": "予約投稿を公開"
+  },
+  "admin.user.blog.revisions.action.save_draft": {
+    "value": "下書き保存"
+  },
+  "admin.user.blog.revisions.action.schedule_entry": {
+    "value": "予約投稿"
+  },
+  "admin.user.blog.revisions.action.unpublish": {
+    "value": "下書きに戻す"
+  },
+  "admin.view_blog": {
+    "value": "ブログを表示"
+  },
+  "album.hatena": {
+    "value": "はてなアルバム"
+  },
+  "b.hatena.ne.jp": {
+    "value": "はてなブックマーク"
+  },
+  "backup.clear_restore": {
+    "value": "クリア"
+  },
+  "backup.notice": {
+    "args": [
+      1
+    ],
+    "value": "%sのバックアップがあります"
+  },
+  "backup.notice %1": {
+    "args": [
+      1
+    ],
+    "value": "%sのバックアップがあります"
+  },
+  "backup.notice [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%sのバックアップがあります"
+  },
+  "backup.notice.ask_restore": {
+    "args": [
+      1
+    ],
+    "value": "%sのバックアップがあります。復元しますか？"
+  },
+  "backup.notice.ask_restore %1": {
+    "args": [
+      1
+    ],
+    "value": "%sのバックアップがあります。復元しますか？"
+  },
+  "backup.notice.ask_restore [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%sのバックアップがあります。復元しますか？"
+  },
+  "backup.notice.auto_restored": {
+    "args": [
+      1
+    ],
+    "value": "%sにバックアップされた編集内容を挿入しました"
+  },
+  "backup.notice.auto_restored %1": {
+    "args": [
+      1
+    ],
+    "value": "%sにバックアップされた編集内容を挿入しました"
+  },
+  "backup.notice.auto_restored [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%sにバックアップされた編集内容を挿入しました"
+  },
+  "backup.restore": {
+    "value": "復元"
+  },
+  "blog.admin.edit-sidebar-module": {
+    "value": "モジュールを編集"
+  },
+  "blog.bun_ken.description": {
+    "value": "校閲や推敲を支援するツール『文賢』を利用し、文章の改善点をリアルタイムで表示します。"
+  },
+  "blog.bun_ken.description.beta_version": {
+    "value": "はてなブログProをご利用の方は、ベータ版としてx年x月x日までの期間無料でお試しいただけます。"
+  },
+  "blog.bun_ken.description.help": {
+    "value": "文賢の基本的な使い方"
+  },
+  "blog.bun_ken.description_secondary": {
+    "value": "用語の誤った使い方や、避けたほうがよい表現など、見落としがちなポイントを第三者的な視点でチェックします。"
+  },
+  "blog.bun_ken.send_empty_body": {
+    "value": "本文が書かれていないため、文賢に送れませんでした。本文を入力して再度お試しください。"
+  },
+  "blog.category": {
+    "value": "カテゴリー"
+  },
+  "blog.category.unavailable": {
+    "value": "ページ編集では利用できません。"
+  },
+  "blog.confirm.delete": {
+    "value": "本当に削除しますか？"
+  },
+  "blog.custom_url": {
+    "value": "カスタムURL"
+  },
+  "blog.custom_url.error.duplicate": {
+    "value": "他の記事と重複しています。別の文字列を指定してください。"
+  },
+  "blog.datetime": {
+    "value": "投稿日時"
+  },
+  "blog.edit_done.confirm.tweet": {
+    "value": "以下の内容でツイートします。よろしいですか？"
+  },
+  "blog.editform.label.socialize_on_post": {
+    "value": "公開と同時にシェアする"
+  },
+  "blog.entry-header": {
+    "value": "記事上（日付上）"
+  },
+  "blog.errors.body.long": {
+    "value": "本文が長すぎます"
+  },
+  "blog.go_to.blog": {
+    "value": "ブログを見る"
+  },
+  "blog.go_to.revisions": {
+    "value": "編集履歴を見る"
+  },
+  "blog.hatena.ne.jp": {
+    "value": "はてなブログ"
+  },
+  "blog.module.antenna": {
+    "value": "アンテナ"
+  },
+  "blog.module.archive": {
+    "value": "月別アーカイブ"
+  },
+  "blog.module.categories.to_be_hidden": {
+    "value": "表示されないカテゴリー"
+  },
+  "blog.module.categories.to_be_shown": {
+    "value": "表示されるカテゴリー"
+  },
+  "blog.module.category": {
+    "value": "カテゴリー"
+  },
+  "blog.module.circles": {
+    "value": "参加グループ"
+  },
+  "blog.module.html": {
+    "value": "HTML"
+  },
+  "blog.module.link": {
+    "value": "リンク"
+  },
+  "blog.module.links.start": {
+    "value": "ブログをはじめる"
+  },
+  "blog.module.profile": {
+    "value": "プロフィール"
+  },
+  "blog.module.recent_comments": {
+    "value": "最近のコメント"
+  },
+  "blog.module.recent_entries": {
+    "value": "最新記事"
+  },
+  "blog.module.search": {
+    "value": "検索"
+  },
+  "blog.og_image": {
+    "value": "アイキャッチ画像"
+  },
+  "blog.permission.private": {
+    "value": "限定公開"
+  },
+  "blog.posted": {
+    "value": "はてなブログに投稿しました"
+  },
+  "blog.proxy_test.execute": {
+    "value": "検証を実行する"
+  },
+  "blog.proxy_test.executing": {
+    "value": "検証を実行しています"
+  },
+  "blog.proxy_test.result": {
+    "value": "結果"
+  },
+  "blog.proxy_test.result.failure": {
+    "value": "失敗"
+  },
+  "blog.proxy_test.result.notification.failure": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "検証が完了しました。全%s項目のうち、%s項目で問題が見つかりました。"
+  },
+  "blog.proxy_test.result.notification.failure %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "検証が完了しました。全%s項目のうち、%s項目で問題が見つかりました。"
+  },
+  "blog.proxy_test.result.notification.failure [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "検証が完了しました。全%s項目のうち、%s項目で問題が見つかりました。"
+  },
+  "blog.proxy_test.result.notification.success": {
+    "value": "検証が完了しました。問題は見つかりませんでした。"
+  },
+  "blog.proxy_test.result.request": {
+    "value": "リクエスト"
+  },
+  "blog.proxy_test.result.response": {
+    "value": "レスポンス"
+  },
+  "blog.proxy_test.result.success": {
+    "value": "成功"
+  },
+  "blog.send_bun_ken": {
+    "value": "文賢に送る"
+  },
+  "blog.social.service.name.haiku": {
+    "value": "はてなハイク"
+  },
+  "blog.social.service.name.mixi": {
+    "value": "mixi"
+  },
+  "blog.social.service.name.twitter": {
+    "value": "Twitter"
+  },
+  "blog.social.share.confirm": {
+    "args": [
+      1
+    ],
+    "value": "%sにシェアしますか？"
+  },
+  "blog.social.share.confirm %1": {
+    "args": [
+      1
+    ],
+    "value": "%sにシェアしますか？"
+  },
+  "blog.social.share.confirm [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%sにシェアしますか？"
+  },
+  "blog.social.share.success": {
+    "args": [
+      1
+    ],
+    "value": "%sへのシェアが完了しました。"
+  },
+  "blog.social.share.success %1": {
+    "args": [
+      1
+    ],
+    "value": "%sへのシェアが完了しました。"
+  },
+  "blog.social.share.success [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%sへのシェアが完了しました。"
+  },
+  "blog.social.twitter.default.message": {
+    "value": "はてなブログに投稿しました #はてなブログ"
+  },
+  "blog.social_button.label.facebook": {
+    "value": "Facebookに投稿"
+  },
+  "blog.social_button.label.haiku": {
+    "value": "はてなハイクに投稿"
+  },
+  "blog.social_button.label.mixicheck": {
+    "value": "mixiに投稿"
+  },
+  "blog.social_button.label.twitter": {
+    "value": "Twitterに投稿"
+  },
+  "blog.title": {
+    "value": "タイトル"
+  },
+  "blog.twitter.length.over.error": {
+    "value": "入力できる最大文字数を超えています"
+  },
+  "blog_entry_number": {
+    "value": "ブログ投稿数"
+  },
+  "blog_total_days": {
+    "value": "ブログ日数"
+  },
+  "blog_total_days.20200528": {
+    "value": "ブログ投稿日数"
+  },
+  "c.hatena.ne.jp": {
+    "value": "はてなココ"
+  },
+  "cancel": {
+    "value": "キャンセル"
+  },
+  "category.new": {
+    "value": "新しいカテゴリー"
+  },
+  "category.new.prompt": {
+    "value": "カテゴリー名を入力してください"
+  },
+  "category.none": {
+    "value": "なし"
+  },
+  "close": {
+    "value": "閉じる"
+  },
+  "comment.delete.messages.confirm": {
+    "value": "削除を実行します。よろしいですか？"
+  },
+  "counter.hatena.ne.jp": {
+    "value": "はてなカウンター"
+  },
+  "create_category": {
+    "value": "新しいカテゴリーを作成"
+  },
+  "create_new_blog": {
+    "value": "新しいブログを作成"
+  },
+  "d.hatena.ne.jp": {
+    "value": "はてなダイアリー"
+  },
+  "datetime.ago": {
+    "args": [
+      1
+    ],
+    "value": "%s前"
+  },
+  "datetime.ago %1": {
+    "args": [
+      1
+    ],
+    "value": "%s前"
+  },
+  "datetime.ago [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s前"
+  },
+  "datetime.later": {
+    "args": [
+      1
+    ],
+    "value": "%s後"
+  },
+  "datetime.later %1": {
+    "args": [
+      1
+    ],
+    "value": "%s後"
+  },
+  "datetime.later [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s後"
+  },
+  "datetime.update_preview": {
+    "value": "プレビューを更新"
+  },
+  "days_n": {
+    "args": [
+      1
+    ],
+    "value": "%s日"
+  },
+  "days_n %1": {
+    "args": [
+      1
+    ],
+    "value": "%s日"
+  },
+  "days_n [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s日"
+  },
+  "delete": {
+    "value": "削除"
+  },
+  "design": {
+    "value": "デザイン"
+  },
+  "done": {
+    "value": "完了"
+  },
+  "e.hatena.ne.jp": {
+    "value": "はてなブログ"
+  },
+  "edit": {
+    "value": "編集"
+  },
+  "edit_form.advanced.settings": {
+    "value": "高度な設定"
+  },
+  "edit_form.advanced.settings.description": {
+    "value": "記事の内容に関するメタデータをカスタマイズできます。記事がシェアされたときや、検索結果に表示されます。"
+  },
+  "edit_form.advanced_robot.robot_title": {
+    "value": "この記事を検索エンジンに登録させない（noindex, nofollow）"
+  },
+  "edit_form.advanced_title.og_title": {
+    "value": "og:title (ソーシャルメディア向けタイトル)"
+  },
+  "edit_form.advanced_title.page_title": {
+    "value": "title要素 (ページのタイトル)"
+  },
+  "edit_form.advanced_title.page_title.description": {
+    "value": "検索用のタイトルを設定することが出来ます。"
+  },
+  "edit_form.advanced_title.page_title.link": {
+    "value": "検索結果シミュレーターを見る"
+  },
+  "edit_form.advanced_title.settings": {
+    "value": "高度なタイトル設定"
+  },
+  "edit_form.advanced_title.settings_search_result": {
+    "value": "検索エンジン用のタイトル設定"
+  },
+  "edit_form.archive": {
+    "value": "過去記事貼り付け"
+  },
+  "edit_form.archive-redux": {
+    "value": "過去記事貼り付け(Redux版)"
+  },
+  "edit_form.archive.not_found": {
+    "value": "お探しの記事は見つかりませんでした。"
+  },
+  "edit_form.archive.placeholder": {
+    "value": "キーワードを入力"
+  },
+  "edit_form.archive.searching": {
+    "value": "検索中…"
+  },
+  "edit_form.body_length_exceeded_error": {
+    "value": "本文が長すぎるため投稿できません"
+  },
+  "edit_form.bun-ken": {
+    "value": "文章ブラッシュアップ"
+  },
+  "edit_form.bun-ken.external_link": {
+    "value": "※ここから先は(株)ウェブライダーの外部サイトへ移動します。利用規約に従ってご利用ください。"
+  },
+  "edit_form.bun-ken.terms_of_use": {
+    "value": "文賢 for はてなブログPro 利用規約"
+  },
+  "edit_form.cannot_insert_in_preview_tab": {
+    "value": "プレビュー中です。\n記事を編集するには編集画面に切り替えてください。"
+  },
+  "edit_form.category_aside_notice": {
+    "value": "※ 先頭のカテゴリーがパンくずリストに使われます。"
+  },
+  "edit_form.category_description": {
+    "value": "カテゴリーを入力し、Enterで確定します。もしくは、カテゴリーリストから選んでクリックします。"
+  },
+  "edit_form.category_description2": {
+    "value": "カテゴリーをつけると、自分のブログ内の記事を分類できます。カテゴリーを入力してEnterで確定、もしくはリストから選んでください。"
+  },
+  "edit_form.category_notice": {
+    "value": "※ Enterで確定してください。"
+  },
+  "edit_form.character_count_exceeded_error": {
+    "args": [
+      1
+    ],
+    "value": "本文が%s文字を超えているため投稿できません"
+  },
+  "edit_form.character_count_exceeded_error %1": {
+    "args": [
+      1
+    ],
+    "value": "本文が%s文字を超えているため投稿できません"
+  },
+  "edit_form.character_count_exceeded_error [_1]": {
+    "args": [
+      1
+    ],
+    "value": "本文が%s文字を超えているため投稿できません"
+  },
+  "edit_form.character_count_unit": {
+    "args": [
+      1
+    ],
+    "value": "%s文字"
+  },
+  "edit_form.character_count_unit %1": {
+    "args": [
+      1
+    ],
+    "value": "%s文字"
+  },
+  "edit_form.character_count_unit [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s文字"
+  },
+  "edit_form.colorpicker.cancel": {
+    "value": "リセット"
+  },
+  "edit_form.customurl_description": {
+    "args": [
+      1
+    ],
+    "value": "%sentry/以下の記事のURLを任意の文字列に変更できます。"
+  },
+  "edit_form.customurl_description %1": {
+    "args": [
+      1
+    ],
+    "value": "%sentry/以下の記事のURLを任意の文字列に変更できます。"
+  },
+  "edit_form.customurl_description [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%sentry/以下の記事のURLを任意の文字列に変更できます。"
+  },
+  "edit_form.datetime_description": {
+    "value": "記事の日時を編集できます。予約投稿するには、未来の日時を選択してください。"
+  },
+  "edit_form.dazn": {
+    "value": "DAZN貼り付け"
+  },
+  "edit_form.dazn.description": {
+    "value": "DAZNを検索し、ダイジェスト動画をブログに貼り付けることができます。ご利用は無料です。"
+  },
+  "edit_form.dazn.empty": {
+    "value": "お探しの動画はみつかりませんでした。"
+  },
+  "edit_form.dazn.placeholder": {
+    "value": "キーワードを入力"
+  },
+  "edit_form.delete": {
+    "value": "削除する"
+  },
+  "edit_form.draft.saved": {
+    "value": "保存しました"
+  },
+  "edit_form.draft.saving": {
+    "value": "下書き保存中です…"
+  },
+  "edit_form.draft_button": {
+    "value": "下書き保存する"
+  },
+  "edit_form.edit": {
+    "value": "編集する"
+  },
+  "edit_form.editor_option": {
+    "value": "編集オプション"
+  },
+  "edit_form.empty_items": {
+    "value": "見つかりませんでした"
+  },
+  "edit_form.failed_to_save_draft": {
+    "value": "下書き保存に失敗しました。時間を置いて再度お試しください。"
+  },
+  "edit_form.flickr": {
+    "value": "Flickr貼り付け"
+  },
+  "edit_form.flickr.description": {
+    "value": "Flickr上のCreative Commons画像を検索し、ブログに貼り付けられます。"
+  },
+  "edit_form.flickr.photostream": {
+    "value": "自分の写真"
+  },
+  "edit_form.flickr.photostream.description": {
+    "value": "Flickrスクリーンネームを入力すると、自分の写真をブログに貼り付けられます。"
+  },
+  "edit_form.flickr.placeholder": {
+    "value": "キーワードを入力"
+  },
+  "edit_form.flickr.register": {
+    "value": "連携"
+  },
+  "edit_form.flickr.screen_name": {
+    "value": "Flickrスクリーンネーム"
+  },
+  "edit_form.flickr.search": {
+    "value": "検索"
+  },
+  "edit_form.flickr.search.description": {
+    "value": "Flickr上のCreative Commons画像を検索し、ブログに貼り付けられます。"
+  },
+  "edit_form.flickr.user_name": {
+    "value": "Flickrユーザ名"
+  },
+  "edit_form.footnote_message": {
+    "value": "ここに脚注を書きます"
+  },
+  "edit_form.get_data_failed": {
+    "value": "データの読み込みに失敗しました。時間をあけてもう一度試してみてください。"
+  },
+  "edit_form.gist": {
+    "value": "Gist貼り付け"
+  },
+  "edit_form.gist.description": {
+    "value": "GitHubユーザー名を入力すると、投稿したGistをブログに貼り付けられます。"
+  },
+  "edit_form.gist.user_name": {
+    "value": "GitHubユーザー名"
+  },
+  "edit_form.google-photos.all_images": {
+    "value": "全ての画像"
+  },
+  "edit_form.google_picker.confirm_google_photos": {
+    "value": "移行する"
+  },
+  "edit_form.google_picker.confirm_google_photos.description": {
+    "value": "これまで投稿したGoogleフォトの画像を、はてなフォトライフに移行してください。"
+  },
+  "edit_form.google_picker.confirm_google_photos.title": {
+    "value": "はてなフォトライフへ画像の移行をお願いします"
+  },
+  "edit_form.input_url.specify": {
+    "value": "画像URLで指定する"
+  },
+  "edit_form.link_url_message": {
+    "value": "ここにURLを書きます"
+  },
+  "edit_form.link_url_prompt": {
+    "value": "リンクするURLを入力してください。"
+  },
+  "edit_form.og_description": {
+    "value": "この記事の概要を記述できます。検索結果やSNSシェア、注目エントリーなどで利用されます。"
+  },
+  "edit_form.og_description.description": {
+    "value": "記事の概要を入力します。未入力の場合は記事本文の冒頭がそのまま抜粋されます。"
+  },
+  "edit_form.og_description.label": {
+    "value": "記事の概要"
+  },
+  "edit_form.og_description.placeholder": {
+    "value": "概要を入力（任意）"
+  },
+  "edit_form.og_image.create": {
+    "value": "アイキャッチ画像を作る"
+  },
+  "edit_form.og_image.create.canva_account_required": {
+    "value": "Canvaの無料会員登録が必要です。"
+  },
+  "edit_form.og_image.create.help": {
+    "value": "画像の作り方"
+  },
+  "edit_form.og_image_description": {
+    "value": "この記事を表す画像を指定できます。注目エントリーやSNSシェアなどで利用されます。"
+  },
+  "edit_form.og_image_upload_failure": {
+    "value": "画像のアップロードに失敗しました。お手数ですが再度お試しください。"
+  },
+  "edit_form.paste": {
+    "value": "選択したアイテムを貼り付け"
+  },
+  "edit_form.pikaday.months": {
+    "value": "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+  },
+  "edit_form.pikaday.next_month": {
+    "value": "次"
+  },
+  "edit_form.pikaday.previous_month": {
+    "value": "前"
+  },
+  "edit_form.pikaday.weekdays": {
+    "value": "日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日"
+  },
+  "edit_form.pikaday.weekdays_short": {
+    "value": "日,月,火,水,木,金,土"
+  },
+  "edit_form.pikaday.year_suffix": {
+    "value": "年"
+  },
+  "edit_form.profile-card": {
+    "value": "プロフィールカード"
+  },
+  "edit_form.profile_card": {
+    "value": "プロフィールカード"
+  },
+  "edit_form.profile_card.all_profile_cards": {
+    "value": "プロフィールカード一覧"
+  },
+  "edit_form.profile_card.config_link": {
+    "value": "プロフィールカードを追加・編集する"
+  },
+  "edit_form.profile_card.description": {
+    "value": "記事下に著者プロフィールを表示できます。"
+  },
+  "edit_form.profile_card.edit_permission_required": {
+    "value": "※プロフィールカードの追加・編集には、編集者または管理者権限が必要です。"
+  },
+  "edit_form.profile_card.filter_placeholder": {
+    "value": "プロフィールカード名を検索"
+  },
+  "edit_form.profile_card.no_matched_profile_cards": {
+    "value": "お探しのプロフィールカードがありません。"
+  },
+  "edit_form.profile_card.no_profile_cards": {
+    "value": "プロフィールカードが作成されていません。"
+  },
+  "edit_form.profile_card.no_selected_cards": {
+    "value": "プロフィールカードが選択されていません"
+  },
+  "edit_form.profile_card.selected": {
+    "value": "選択中のプロフィールカード"
+  },
+  "edit_form.publish_soon": {
+    "value": "すぐに公開する"
+  },
+  "edit_form.published_datetime_description": {
+    "value": "記事の日時を編集できます。予約投稿するには、記事を下書きに戻してから、未来の日時を選択してください。"
+  },
+  "edit_form.rakuten": {
+    "value": "楽天商品紹介"
+  },
+  "edit_form.rakuten.api_limit_exceeded": {
+    "value": "データを取得できません。のちほどもう一度お試しください。"
+  },
+  "edit_form.rakuten.description": {
+    "value": "楽天市場の商品を検索し、商品ページヘのリンクをブログに貼り付けることができます。"
+  },
+  "edit_form.rakuten.empty": {
+    "args": [
+      1
+    ],
+    "value": "キーワード「%s」を含む商品はみつかりませんでした。"
+  },
+  "edit_form.rakuten.empty %1": {
+    "args": [
+      1
+    ],
+    "value": "キーワード「%s」を含む商品はみつかりませんでした。"
+  },
+  "edit_form.rakuten.empty [_1]": {
+    "args": [
+      1
+    ],
+    "value": "キーワード「%s」を含む商品はみつかりませんでした。"
+  },
+  "edit_form.rakuten.placeholder": {
+    "value": "キーワードを入力"
+  },
+  "edit_form.rakuten.price": {
+    "args": [
+      1
+    ],
+    "value": "価格: %s円"
+  },
+  "edit_form.rakuten.price %1": {
+    "args": [
+      1
+    ],
+    "value": "価格: %s円"
+  },
+  "edit_form.rakuten.price [_1]": {
+    "args": [
+      1
+    ],
+    "value": "価格: %s円"
+  },
+  "edit_form.save": {
+    "value": "保存する"
+  },
+  "edit_form.saving": {
+    "value": "保存中…"
+  },
+  "edit_form.schedule_coming_entry": {
+    "value": "未来の日時を選択してください"
+  },
+  "edit_form.schedule_this_entry": {
+    "value": "指定日時で予約投稿する"
+  },
+  "edit_form.scheduled_update.existing_notice.body1": {
+    "args": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "value": "今この記事を更新しても、%sには別の内容で上書きされます。%s以降の記事の内容を編集したい場合は、「%s」から「%s」してください。"
+  },
+  "edit_form.scheduled_update.existing_notice.body1 %1%2%3": {
+    "args": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "value": "今この記事を更新しても、%sには別の内容で上書きされます。%s以降の記事の内容を編集したい場合は、「%s」から「%s」してください。"
+  },
+  "edit_form.scheduled_update.existing_notice.body1 [_1][_2][_3]": {
+    "args": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "value": "今この記事を更新しても、%sには別の内容で上書きされます。%s以降の記事の内容を編集したい場合は、「%s」から「%s」してください。"
+  },
+  "edit_form.scheduled_update.existing_notice.body2": {
+    "args": [
+      1
+    ],
+    "value": "%s以降に掲載される内容を編集したい場合は、「記事の管理」から「差し替え予約を編集」してください。"
+  },
+  "edit_form.scheduled_update.existing_notice.body2 %1": {
+    "args": [
+      1
+    ],
+    "value": "%s以降に掲載される内容を編集したい場合は、「記事の管理」から「差し替え予約を編集」してください。"
+  },
+  "edit_form.scheduled_update.existing_notice.body2 [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s以降に掲載される内容を編集したい場合は、「記事の管理」から「差し替え予約を編集」してください。"
+  },
+  "edit_form.scheduled_update.existing_notice.title": {
+    "value": "差し替え予約が設定されています"
+  },
+  "edit_form.set_draft_datetime": {
+    "value": "下書き保存する"
+  },
+  "edit_form.snippet": {
+    "value": "定型文貼り付け"
+  },
+  "edit_form.snippet.delete.confirm": {
+    "args": [
+      1
+    ],
+    "value": "定型文「%s」を削除しますか？"
+  },
+  "edit_form.snippet.delete.confirm %1": {
+    "args": [
+      1
+    ],
+    "value": "定型文「%s」を削除しますか？"
+  },
+  "edit_form.snippet.delete.confirm [_1]": {
+    "args": [
+      1
+    ],
+    "value": "定型文「%s」を削除しますか？"
+  },
+  "edit_form.snippet.description": {
+    "args": [
+      1
+    ],
+    "value": "よく使う文章や記法、HTMLを保存し記事編集時に貼り付けられます。編集画面内で文章を選択し「定型文を作成する」ボタンを押すと、その文章を「定型文」として保存することができます。定型文は%s件まで作成可能です。"
+  },
+  "edit_form.snippet.description %1": {
+    "args": [
+      1
+    ],
+    "value": "よく使う文章や記法、HTMLを保存し記事編集時に貼り付けられます。編集画面内で文章を選択し「定型文を作成する」ボタンを押すと、その文章を「定型文」として保存することができます。定型文は%s件まで作成可能です。"
+  },
+  "edit_form.snippet.description [_1]": {
+    "args": [
+      1
+    ],
+    "value": "よく使う文章や記法、HTMLを保存し記事編集時に貼り付けられます。編集画面内で文章を選択し「定型文を作成する」ボタンを押すと、その文章を「定型文」として保存することができます。定型文は%s件まで作成可能です。"
+  },
+  "edit_form.snippet.field.too_long": {
+    "args": [
+      1
+    ],
+    "value": "文字数の上限を超えました（最大%s文字）"
+  },
+  "edit_form.snippet.field.too_long %1": {
+    "args": [
+      1
+    ],
+    "value": "文字数の上限を超えました（最大%s文字）"
+  },
+  "edit_form.snippet.field.too_long [_1]": {
+    "args": [
+      1
+    ],
+    "value": "文字数の上限を超えました（最大%s文字）"
+  },
+  "edit_form.snippet.filter_placeholder": {
+    "value": "定型文を検索"
+  },
+  "edit_form.snippet.list.header": {
+    "args": [
+      1
+    ],
+    "value": "定型文一覧 (%s)"
+  },
+  "edit_form.snippet.list.header %1": {
+    "args": [
+      1
+    ],
+    "value": "定型文一覧 (%s)"
+  },
+  "edit_form.snippet.list.header [_1]": {
+    "args": [
+      1
+    ],
+    "value": "定型文一覧 (%s)"
+  },
+  "edit_form.snippet.no_title": {
+    "value": "（無題）"
+  },
+  "edit_form.snippet.paste": {
+    "value": "選択した定型文を貼り付け"
+  },
+  "edit_form.snippet.save": {
+    "value": "定型文を作成する"
+  },
+  "edit_form.snippet.title": {
+    "value": "定型文貼り付け"
+  },
+  "edit_form.snippet.update": {
+    "value": "定型文を更新する"
+  },
+  "edit_form.title": {
+    "value": "タイトル"
+  },
+  "edit_form.toolbar.button_hide": {
+    "value": "ツールバーを開閉する"
+  },
+  "edit_form.toolbar.button_more": {
+    "value": "ツールバーを開閉する"
+  },
+  "edit_form.toolbar.insertTOC": {
+    "value": "目次"
+  },
+  "edit_form.update_draft_button": {
+    "value": "下書きを更新する"
+  },
+  "edit_form.url_description": {
+    "args": [
+      1
+    ],
+    "value": "%s以下のURLを任意の文字列に変更できます。"
+  },
+  "edit_form.url_description %1": {
+    "args": [
+      1
+    ],
+    "value": "%s以下のURLを任意の文字列に変更できます。"
+  },
+  "edit_form.url_description [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s以下のURLを任意の文字列に変更できます。"
+  },
+  "edit_form.youtube": {
+    "value": "YouTube貼り付け"
+  },
+  "edit_form.youtube.description": {
+    "value": "YouTubeの動画を貼り付けできます。"
+  },
+  "edit_form.youtube.failed_to_fetch": {
+    "value": "動画の取得に失敗しました。"
+  },
+  "edit_form.youtube.failed_to_fetch_details": {
+    "value": "失敗し続ける場合は、お手数ですがYouTubeにて検索いただき、該当する動画のURLを記事に貼り付けてください。"
+  },
+  "edit_form.youtube.go_to_youtube": {
+    "value": "YouTubeへ移動"
+  },
+  "edit_form.youtube.not_found": {
+    "value": "一致する検索結果はありませんでした。"
+  },
+  "edit_form.youtube.placeholder": {
+    "value": "キーワードを入力"
+  },
+  "edit_form.youtube.view_count": {
+    "args": [
+      1
+    ],
+    "value": "%s回視聴"
+  },
+  "edit_form.youtube.view_count %1": {
+    "args": [
+      1
+    ],
+    "value": "%s回視聴"
+  },
+  "edit_form.youtube.view_count [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s回視聴"
+  },
+  "edit_tab": {
+    "value": "タブを整理する"
+  },
+  "editor.instagram.no_caption_title": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "Instagram post by %s • %s"
+  },
+  "editor.instagram.no_caption_title %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "Instagram post by %s • %s"
+  },
+  "editor.instagram.no_caption_title [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "Instagram post by %s • %s"
+  },
+  "epic.change_primary": {
+    "value": "メインブログにする"
+  },
+  "epic.confirm_subscribe": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "「%s」(%s) の読者になりますか？"
+  },
+  "epic.confirm_subscribe %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "「%s」(%s) の読者になりますか？"
+  },
+  "epic.confirm_subscribe [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "「%s」(%s) の読者になりますか？"
+  },
+  "epic.confirm_unsubscribe": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "「%s」(%s) の講読をやめますか？"
+  },
+  "epic.confirm_unsubscribe %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "「%s」(%s) の講読をやめますか？"
+  },
+  "epic.confirm_unsubscribe [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "「%s」(%s) の講読をやめますか？"
+  },
+  "epic.delete.confirm": {
+    "value": "削除します。よろしいですか？"
+  },
+  "epic.delete.confirm.category": {
+    "value": "カテゴリーを削除します。この操作は取り消せません。続けますか？"
+  },
+  "epic.editarea.hover": {
+    "value": "ここに画像をドロップ"
+  },
+  "epic.editor_group": {
+    "value": "グループ貼り付け"
+  },
+  "epic.editor_group.description": {
+    "value": "所属するグループを記事に貼り付けて、ランキングに参加できます。"
+  },
+  "epic.editor_group.description.help": {
+    "value": "ランキングへの参加方法"
+  },
+  "epic.editor_group.empty.action": {
+    "value": "グループをさがす"
+  },
+  "epic.editor_group.empty.heading": {
+    "value": "グループに加入して、ランキングに参加しましょう"
+  },
+  "epic.embed_photo.submit": {
+    "value": "記事編集画面に貼り付ける"
+  },
+  "epic.entry.delete.confirm": {
+    "value": "チェックした記事を削除します。本当に削除しますか？"
+  },
+  "epic.entry.delete.confirm_with_entries": {
+    "args": [],
+    "value": ""
+  },
+  "epic.entry.delete.confirm_with_entries %1": {
+    "args": [],
+    "value": ""
+  },
+  "epic.entry.delete.confirm_with_entries [_1]": {
+    "args": [],
+    "value": ""
+  },
+  "epic.entry.delete.confirm_with_entries_num": {
+    "args": [
+      1
+    ],
+    "value": "チェックした%s記事を削除します。本当に削除しますか？"
+  },
+  "epic.entry.delete.confirm_with_entries_num %1": {
+    "args": [
+      1
+    ],
+    "value": "チェックした%s記事を削除します。本当に削除しますか？"
+  },
+  "epic.entry.delete.confirm_with_entries_num [_1]": {
+    "args": [
+      1
+    ],
+    "value": "チェックした%s記事を削除します。本当に削除しますか？"
+  },
+  "epic.failed_to_load": {
+    "value": "読み込みに失敗しました"
+  },
+  "epic.file_uploader": {
+    "value": "ファイルアップローダー"
+  },
+  "epic.file_uploader.beta": {
+    "value": "ファイルアップローダー(β版)"
+  },
+  "epic.file_uploader.copied": {
+    "value": "コピーしました"
+  },
+  "epic.file_uploader.copy": {
+    "value": "リンクをコピー"
+  },
+  "epic.file_uploader.delete": {
+    "value": "削除する"
+  },
+  "epic.file_uploader.delete.alert": {
+    "value": "ファイルを削除します。この操作は取り消せません。続けますか？"
+  },
+  "epic.file_uploader.description": {
+    "value": "画像，SVG，CSS，JavaScript，PDFをアップロードできます。画像はフォトライフの「Hatena Blog Files」フォルダにアップロードされます。"
+  },
+  "epic.file_uploader.drop_here": {
+    "value": "ここにファイルをドロップ"
+  },
+  "epic.file_uploader.previous_items": {
+    "value": "過去のアップロード結果"
+  },
+  "epic.file_uploader.upload_result": {
+    "value": "アップロード結果"
+  },
+  "epic.image_alt": {
+    "value": "画像の代替テキスト"
+  },
+  "epic.kotoba.max_tag_name_length": {
+    "args": [
+      1
+    ],
+    "value": "タグは最大で%s文字までです"
+  },
+  "epic.kotoba.max_tag_name_length %1": {
+    "args": [
+      1
+    ],
+    "value": "タグは最大で%s文字までです"
+  },
+  "epic.kotoba.max_tag_name_length [_1]": {
+    "args": [
+      1
+    ],
+    "value": "タグは最大で%s文字までです"
+  },
+  "epic.kotoba.max_tags_per_entry": {
+    "args": [
+      1
+    ],
+    "value": "記事に設定できるタグの個数は%s個までです"
+  },
+  "epic.kotoba.max_tags_per_entry %1": {
+    "args": [
+      1
+    ],
+    "value": "記事に設定できるタグの個数は%s個までです"
+  },
+  "epic.kotoba.max_tags_per_entry [_1]": {
+    "args": [
+      1
+    ],
+    "value": "記事に設定できるタグの個数は%s個までです"
+  },
+  "epic.kotoba_modal.desc.1": {
+    "value": "同じ興味の人に読まれやすく"
+  },
+  "epic.kotoba_modal.desc.2": {
+    "value": "するために、"
+  },
+  "epic.kotoba_modal.desc.3": {
+    "value": "記事にタグをつけてみましょう！"
+  },
+  "epic.kotoba_modal.desc.heading": {
+    "value": "あなたの記事、読みたい人へ届けよう"
+  },
+  "epic.more": {
+    "value": "もっと読む"
+  },
+  "epic.new_feature": {
+    "value": "新機能"
+  },
+  "epic.primary_blog": {
+    "value": "メインブログ"
+  },
+  "epic.show_detail": {
+    "value": "詳しくはこちら"
+  },
+  "epic.subscribe": {
+    "value": "読者になる"
+  },
+  "epic.subscriber": {
+    "value": "読者"
+  },
+  "epic.subscriber_count": {
+    "args": [
+      1
+    ],
+    "value": "%s"
+  },
+  "epic.subscriber_count %1": {
+    "args": [
+      1
+    ],
+    "value": "%s"
+  },
+  "epic.subscriber_count [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s"
+  },
+  "epic.subscribing": {
+    "value": "読者です"
+  },
+  "epic.subscription_list": {
+    "value": ""
+  },
+  "epic.syntax_switch": {
+    "value": "編集モードを切り替えますか？\n\n編集画面をリセットするため、作成中の本文は消去されます。この操作は元に戻せません。"
+  },
+  "epic.try_use": {
+    "value": "使ってみる"
+  },
+  "epic.view_more": {
+    "value": "もっと見る"
+  },
+  "epic.yahoo_import_password_copied": {
+    "value": "移行用コードをコピーしました"
+  },
+  "f.hatena.ne.jp": {
+    "value": "はてなフォトライフ"
+  },
+  "form.confirm.changed": {
+    "value": "変更を保存せずに移動しますか"
+  },
+  "form.confirm.changed.epic": {
+    "value": "変更を保存せずに移動しますか？"
+  },
+  "fotolife.folder.top": {
+    "value": "トップフォルダ"
+  },
+  "g.hatena.ne.jp": {
+    "value": "はてなグループ"
+  },
+  "global.activate": {
+    "value": "有効にする"
+  },
+  "global.confirm": {
+    "value": "よろしいですか?"
+  },
+  "global.deactivate": {
+    "value": "無効にする"
+  },
+  "global.done": {
+    "value": "完了しました"
+  },
+  "global.message.deleted": {
+    "value": "削除しました"
+  },
+  "go_to_settings": {
+    "value": "外部サービス連携設定へ"
+  },
+  "h.hatena.ne.jp": {
+    "value": "はてなハイク"
+  },
+  "help": {
+    "value": "ヘルプ"
+  },
+  "hidden_subscribes": {
+    "value": "..."
+  },
+  "hours_n": {
+    "args": [
+      1
+    ],
+    "value": "%s時間"
+  },
+  "hours_n %1": {
+    "args": [
+      1
+    ],
+    "value": "%s時間"
+  },
+  "hours_n [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s時間"
+  },
+  "i.hatena.ne.jp": {
+    "value": "はてなアイデア"
+  },
+  "k.hatena.ne.jp": {
+    "value": "はてなブログ タグ"
+  },
+  "l.hatena.ne.jp": {
+    "value": "はてなランド"
+  },
+  "lang": {
+    "value": "言語"
+  },
+  "lang.en.native": {
+    "value": "English"
+  },
+  "lang.ja.native": {
+    "value": "日本語"
+  },
+  "list.more": {
+    "value": "もっと見る"
+  },
+  "loading": {
+    "value": "読み込み中..."
+  },
+  "logout": {
+    "value": "ログアウト"
+  },
+  "m.hatena.ne.jp": {
+    "value": "はてなメッセージ"
+  },
+  "minutes_n": {
+    "args": [
+      1
+    ],
+    "value": "%s分"
+  },
+  "minutes_n %1": {
+    "args": [
+      1
+    ],
+    "value": "%s分"
+  },
+  "minutes_n [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s分"
+  },
+  "mono.hatena.ne.jp": {
+    "value": "はてなモノリス"
+  },
+  "my_hatena": {
+    "value": "Myはてな"
+  },
+  "n.hatena.ne.jp": {
+    "value": "はてな"
+  },
+  "new_entry": {
+    "value": "記事を書く"
+  },
+  "none": {
+    "value": "なし"
+  },
+  "notices": {
+    "value": "お知らせ"
+  },
+  "ok": {
+    "value": "OK"
+  },
+  "pager.page_num": {
+    "args": [
+      1
+    ],
+    "value": "%sページ目"
+  },
+  "pager.page_num %1": {
+    "args": [
+      1
+    ],
+    "value": "%sページ目"
+  },
+  "pager.page_num [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%sページ目"
+  },
+  "placeholder.ip_address": {
+    "value": "IPアドレス"
+  },
+  "plural_entries": {
+    "value": "記事"
+  },
+  "plural_entry": {
+    "value": "記事"
+  },
+  "preview": {
+    "value": "プレビュー"
+  },
+  "profile": {
+    "value": "プロフィール"
+  },
+  "profile.change": {
+    "value": "変更する"
+  },
+  "profile.image.change": {
+    "value": "プロフィール画像を変更する"
+  },
+  "publication.layout": {
+    "value": "レイアウト"
+  },
+  "publication.layout.description": {
+    "value": "ページのレイアウトを設定できます"
+  },
+  "publication.layout.entry": {
+    "value": "記事レイアウト"
+  },
+  "publication.layout.entry.description": {
+    "value": "通常の記事と同じレイアウトです。"
+  },
+  "publication.layout.free": {
+    "value": "フリーレイアウト(β版)"
+  },
+  "publication.layout.free.description": {
+    "value": "真っさらな状態から自由にHTMLやCSS\nを書いてページを作成できます。"
+  },
+  "publication.layout.header_footer": {
+    "value": "ヘッダ・フッタレイアウト"
+  },
+  "publication.layout.header_footer.description": {
+    "value": "通常の記事から、サイドバーを無くしたレイアウトです。"
+  },
+  "publication_type.page": {
+    "value": "固定ページ"
+  },
+  "q.hatena.ne.jp": {
+    "value": "人力検索はてな"
+  },
+  "r.hatena.ne.jp": {
+    "value": "はてなRSS"
+  },
+  "read_more_comments": {
+    "value": "もっと読む"
+  },
+  "really_want_to_logout": {
+    "value": "本当にログアウトしますか？"
+  },
+  "s.hatena.ne.jp": {
+    "value": "はてなスター"
+  },
+  "save": {
+    "value": "保存"
+  },
+  "see_more": {
+    "value": "続きを読む"
+  },
+  "services_in_use": {
+    "value": "利用中のサービス"
+  },
+  "settings": {
+    "value": "設定"
+  },
+  "space.hatena.ne.jp": {
+    "value": "はてなスペース"
+  },
+  "star-navigation-message": {
+    "value": "この記事がおもしろかったら、スターを押して「いいな」を伝えてみましょう！"
+  },
+  "subscribed_list.no_subscribe.description": {
+    "value": "読者機能を使って、読みたいブログの更新を簡単にチェックできます。気になるブログを見つけたら読者になってみましょう！"
+  },
+  "subscribed_list.no_subscribe.heading": {
+    "value": "気になるブログの読者になってみましょう"
+  },
+  "subscribed_list.no_subscribe.help": {
+    "value": "使い方はこちら"
+  },
+  "subscribed_list.no_subscribe.how_to_use": {
+    "value": "読者機能の使い方"
+  },
+  "subscribed_list.no_subscribe.message": {
+    "value": "まだ読者になっていません"
+  },
+  "there_are_no_service_in_use": {
+    "value": "現在利用中のサービスはありません"
+  },
+  "ugomemo.hatena.ne.jp": {
+    "value": "うごメモはてな"
+  },
+  "unit_day": {
+    "args": [
+      1
+    ],
+    "value": "%s 日"
+  },
+  "unit_day %1": {
+    "args": [
+      1
+    ],
+    "value": "%s 日"
+  },
+  "unit_day [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s 日"
+  },
+  "unit_entry": {
+    "args": [
+      1
+    ],
+    "value": "%s 記事"
+  },
+  "unit_entry %1": {
+    "args": [
+      1
+    ],
+    "value": "%s 記事"
+  },
+  "unit_entry [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s 記事"
+  },
+  "unit_person": {
+    "args": [
+      1
+    ],
+    "value": "%s 人"
+  },
+  "unit_person %1": {
+    "args": [
+      1
+    ],
+    "value": "%s 人"
+  },
+  "unit_person [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s 人"
+  },
+  "uploading": {
+    "value": "アップロード中"
+  },
+  "user.config.profile.errors.check_type": {
+    "value": "アップロードできる画像の種類は jpg, png, gif, bmp です。"
+  },
+  "users_entry": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "%sさんの%s"
+  },
+  "users_entry %1%2": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "%sさんの%s"
+  },
+  "users_entry [_1][_2]": {
+    "args": [
+      1,
+      2
+    ],
+    "value": "%sさんの%s"
+  },
+  "years_n": {
+    "args": [
+      1
+    ],
+    "value": "%s年"
+  },
+  "years_n %1": {
+    "args": [
+      1
+    ],
+    "value": "%s年"
+  },
+  "years_n [_1]": {
+    "args": [
+      1
+    ],
+    "value": "%s年"
+  },
+  "youth.hatena": {
+    "value": "はてな"
+  }
+}

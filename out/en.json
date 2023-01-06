@@ -1313,7 +1313,7 @@
     "value": "はてなフォトライフへ画像の移行をお願いします"
   },
   "edit_form.input_url.specify": {
-    "value": "画像URLで指定する"
+    "value": "Specify image URL"
   },
   "edit_form.link_url_message": {
     "value": "Write URL here"
@@ -1325,22 +1325,22 @@
     "value": "You can specify post description in this entry."
   },
   "edit_form.og_description.description": {
-    "value": "記事の概要を入力します。未入力の場合は記事本文の冒頭がそのまま抜粋されます。"
+    "value": "Enter a summary of the article. If left blank, the beginning of the article will be used as is."
   },
   "edit_form.og_description.label": {
     "value": "post description"
   },
   "edit_form.og_description.placeholder": {
-    "value": "概要を入力（任意）"
+    "value": "Description (optional)"
   },
   "edit_form.og_image.create": {
-    "value": "アイキャッチ画像を作る"
+    "value": "Add featured image"
   },
   "edit_form.og_image.create.canva_account_required": {
-    "value": "Canvaの無料会員登録が必要です。"
+    "value": "A free Canva account is required."
   },
   "edit_form.og_image.create.help": {
-    "value": "画像の作り方"
+    "value": "How to create an image"
   },
   "edit_form.og_image_description": {
     "value": "You can choose post thumbnail from images in the entry."
@@ -1367,25 +1367,25 @@
     "value": "Sun,Mon,Tue,Wed,Thu,Fri,Sat"
   },
   "edit_form.pikaday.year_suffix": {
-    "value": "年"
+    "value": "Year"
   },
   "edit_form.profile-card": {
-    "value": "プロフィールカード"
+    "value": "Profile card"
   },
   "edit_form.profile_card": {
-    "value": "プロフィールカード"
+    "value": "Profile card"
   },
   "edit_form.profile_card.all_profile_cards": {
-    "value": "プロフィールカード一覧"
+    "value": "List of profile cards"
   },
   "edit_form.profile_card.config_link": {
-    "value": "プロフィールカードを追加・編集する"
+    "value": "Add or edit profile cards"
   },
   "edit_form.profile_card.description": {
-    "value": "記事下に著者プロフィールを表示できます。"
+    "value": "You can display the author's profile at the bottom of the article."
   },
   "edit_form.profile_card.edit_permission_required": {
-    "value": "※プロフィールカードの追加・編集には、編集者または管理者権限が必要です。"
+    "value": "*Editor or administrator permissions are required to add or edit profile cards."
   },
   "edit_form.profile_card.filter_placeholder": {
     "value": "プロフィールカード名を検索"
